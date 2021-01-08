@@ -11,7 +11,7 @@ class Structure:
 
 
 def find_grid_borders():
-    f = open("Beijing_restaurants.txt", "r")
+    f = open("data/Beijing_restaurants.txt", "r")
 
     maxX = maxY = 0
     minX = minY = maxsize
@@ -63,7 +63,7 @@ def make_lists(s):
     return list_x, list_y
 
 def fill_dict(s, block_dict):
-    f = open("Beijing_restaurants.txt", "r")
+    f = open("data/Beijing_restaurants.txt", "r")
 
     idNo = 1
 

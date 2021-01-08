@@ -96,7 +96,7 @@ def put_block_points(list, tuple1, s, wm, wM, f, isWholeBlock):
       list.append(line)
 
 def write_results(l):
-   f = open("results", "w")
+   f = open("results2", "w")
    for line in l:
       f.write(line + "\n")
    f.close()
